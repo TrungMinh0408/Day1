@@ -23,10 +23,10 @@
             $total = 15000;
             else if($numbers > 1 && $numbers <= 5)
             $total = 15000 + ($numbers-1)*12000;
-            else if($numbers > 6)
-            $total = 15000 + ($numbers-1)*12000 + ($numbers-4) * 90000;
+            else if($numbers > 5)
+            $total = 15000 + 4 * 12000 + ($numbers-5) * 90000;
             else if($numbers > 140)
-            $total = (15000 + ($numbers-1)*12000 + ($numbers-4) * 90000) * 0.8;
+            $total = (15000 + 4 * 12000 + ($numbers-5) * 90000) * 0.88;
 
             echo "Total Price : $total  ";
         }
